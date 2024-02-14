@@ -1,0 +1,28 @@
+﻿<Window x:Name="backsloy" x:Class="Practos1_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practos1_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Foreground="Red">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="Red" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Background="#FF02BD0D">
+        <Button x:Name="knopka1" Content="" Margin="116,44,600,306" Click="knopka1_Click"/>
+        <Button x:Name="knopka2" Content="" Margin="205,44,511,306" Click="knopka1_Click"/>
+        <Button x:Name="knopka3" Content="" Margin="294,44,422,306" Click="knopka1_Click"/>
+        <Button x:Name="knopka4" Content="" Margin="116,133,600,217" Click="knopka1_Click"/>
+        <Button x:Name="knopka5" Content="" Margin="205,133,511,217" Click="knopka1_Click"/>
+        <Button x:Name="knopka6" Content="" Margin="294,133,422,217" Click="knopka1_Click"/>
+        <Button x:Name="knopka7" Content="" Margin="116,222,600,128" Click="knopka1_Click"/>
+        <Button x:Name="knopka8" Content="" Margin="205,222,511,128" Click="knopka1_Click"/>
+        <Button x:Name="knopka9" Content="" Margin="294,222,422,128" Click="knopka1_Click"/>
+        <Button x:Name="knopka10" Content="Играть" Margin="183,354,492,50" Click="knopka10_Click"/>
+
+    </Grid>
+</Window>
